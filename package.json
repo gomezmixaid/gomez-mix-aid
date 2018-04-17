@@ -1,0 +1,26 @@
+{
+  "name": "gomez-mix-aid",
+  "version": "1.0.0",
+  "description": "A simple back-end for searching DropMix card data via HTTP calls and receiving data as JSON responses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomezmixaid/gomez-mix-aid.git"
+  },
+  "author": "Gomez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gomezmixaid/gomez-mix-aid/issues"
+  },
+  "homepage": "https://github.com/gomezmixaid/gomez-mix-aid#readme",
+  "dependencies": {
+    "csv-parse": "^2.2.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "redis": "^2.8.0"
+  }
+}
